@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          As a skilled React JS and frontend developer, I create dynamic, responsive web interfaces using component-based architecture. My expertise in HTML, CSS, and JavaScript ensures high-performance applications with seamless user experiences. Explore my portfolio to see innovative projects that blend visual appeal with functionality.
+          As a skilled React JS and frontend developer, I have hands on experience of devloping  dynamic, responsive web interfaces using component-based architecture. My expertise in HTML, CSS, and JavaScript ensures high-performance applications with seamless user experiences. Explore my portfolio to see innovative projects that blend visual appeal with functionality.
 
         </p>
       </div>

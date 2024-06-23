@@ -44,29 +44,26 @@ const Contact = () => {
       return;
     }
 
-    else{
+    
       emailjs
-      .sendForm('service_9i3h8s6', 'template_c0tiaws', form.current, 'YSxBA-L_9E_IOklvy')
-      .then(
-        () => {
-          setSuccessMsg(`Thank you dear ${username}, Your message has been sent successfully!`);
-          setTimeout(() => {
-            setSuccessMsg("")
+        .sendForm('service_9i3h8s6', 'template_c0tiaws', form.current, 'YSxBA-L_9E_IOklvy')
+        .then(
+          () => {
+            setSuccessMsg(`Thank you dear ${username}, Your message has been sent successfully!`);
             setErrMsg("");
             setUsername("");
             setPhoneNumber("");
             setEmail("");
             setSubject("");
             setMessage("");
-          }, 1000);
-       
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-          setErrMsg("Failed to send message. Please try again later.");
-        }
-      );
-    }
+
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+            setErrMsg("Failed to send message. Please try again later.");
+          }
+        );
+    
   };
 
   return (
