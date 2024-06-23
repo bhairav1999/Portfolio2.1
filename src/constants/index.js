@@ -1,3 +1,5 @@
+
+
 export const navLinksdata = [
   {
     _id: 1001,
@@ -16,7 +18,7 @@ export const navLinksdata = [
   },
   {
     _id: 1004,
-    title: "Resume",
+    title: "Experiences",
     link: "resume",
   },
 
@@ -25,4 +27,5 @@ export const navLinksdata = [
     title: "Contact",
     link: "contact",
   },
+
 ];

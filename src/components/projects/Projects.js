@@ -17,11 +17,11 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="CONFY STORE"
+          title="COMFY STORE"
           des="Developed fully functional Ecommerce platform using ReactJS with integration of the Daisy UI component library, which is built on Tailwind CSS. Implemented React Router v6.15, enabling seamless navigation. Incorporated sorting, filtering, pagination, and authentication to enhance user experience. "
           src={projectOne}
-          github=""
-          url=""
+          github="https://github.com/bhairav1999/comfy-store.git"
+          url="https://bhairav-comfy.netlify.app/"
         />
         <ProjectsCard
           title="YOUTUBE CLONE"
@@ -34,8 +34,8 @@ const Projects = () => {
           title="UNSPPLASH IMAGES"
           des="I developed an image gallery application using React JS, HTML, CSS, and JavaScript, integrating Unsplash API for high-quality images. The app features search, filter functionalities, ensuring a seamless and user-friendly browsing experience."
           src={projectThree}
-          github=""
-          url=""
+          github="https://github.com/bhairav1999/Unsplash-Images.git"
+          url="https://stalwart-chimera-cbbabd.netlify.app/"
         />
         <ProjectsCard
           title="WEATHER APP"
